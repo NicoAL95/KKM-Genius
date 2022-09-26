@@ -1,0 +1,89 @@
+:root {
+	--primary: #f87060;
+	--dark: #102542;
+	--white: #f4faff;
+}
+
+body {
+	padding-inline: 5%;
+	font-family: "Poppins", serif;
+	color: var(--dark);
+	font-weight: 300;
+}
+
+/* Navbar */
+.navbar {
+	background-color: white;
+	padding: 30px 0;
+}
+
+#remove-pad {
+	padding: 0 !important;
+}
+#navSize {
+	width: 30%;
+}
+
+.fw-link {
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.active {
+	font-weight: 700;
+}
+/* End Navbar */
+
+/* Content */
+.headCon {
+	margin-top: 50px;
+}
+.hc-small {
+	margin-bottom: 20px;
+}
+
+.hc-hero {
+	font-size: 62px;
+	text-transform: capitalize;
+}
+/* End Content */
+/* UI */
+.btn-primary {
+	color: var(--primary);
+	background-color: white;
+	border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+	color: var(--white) !important;
+	background-color: var(--primary) !important;
+}
+/* End UI*/
+
+/* Alumni */
+.alumni {
+	margin: 60px 0;
+}
+
+.cardPhoto {
+	text-align: center;
+}
+
+.listAlumni {
+	list-style: none;
+}
+.imgAlumni {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+.alumniName {
+	font-weight: 700;
+}
+/* End Alumni */
+
+/* Footer */
+.footer {
+	text-align: center;
+}
+/* End Footer */
