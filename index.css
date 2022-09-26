@@ -77,12 +77,19 @@ body {
 	margin: 60px 0;
 }
 
+.alumniTitle{
+	text-align: center;
+	font-weight: 700;
+	margin: 50px 0 40px ;
+}
+
 .cardPhoto {
 	text-align: center;
 }
 
 .listAlumni {
 	list-style: none;
+	padding: 0;
 }
 .imgAlumni {
 	width: 150px;
