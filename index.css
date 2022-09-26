@@ -46,6 +46,18 @@ body {
 	font-size: 62px;
 	text-transform: capitalize;
 }
+
+@media only screen and (max-width: 650px) {
+	.hc-hero {
+		font-size: 52px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.hc-hero {
+		font-size: 38px;
+	}
+}
 /* End Content */
 /* UI */
 .btn-primary {
